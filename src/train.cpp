@@ -55,5 +55,5 @@ int Train::getLength() {
     return len;
 }
 int TraingetOpCount() {
-    return this->countOp;
+    return countOp;
 }
