@@ -1,5 +1,6 @@
 // Copyright 2021 NNTU-CS
 #include "train.h"
+#include <cstddef>
 
 void Train::addCage(bool light) {
         Cage* node = new Cage;
