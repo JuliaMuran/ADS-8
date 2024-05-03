@@ -46,7 +46,7 @@ int Train::getLength() {
             } else {
                 index = 1;
                 while (index < numberV) {
-                    current = current->prev;
+                    current = current->next;
                     countOp++;
                     index++;
                 }
